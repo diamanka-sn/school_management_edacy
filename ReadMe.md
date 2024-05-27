@@ -20,8 +20,8 @@ Welcome to the Lycée d'Excellence de Dakar's School Management Application. Thi
 
 Ensure you have the following installed on your system:
 - Node.js
-- npm (Node Package Manager)
-- MongoDB
+- npm 
+- Docker - MongoDB
 
 ### Installation
 
