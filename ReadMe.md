@@ -1,4 +1,4 @@
-## Lycée d'Excellence de Dakar - School Management Application - EDACY
+## 🚀 Lycée d'Excellence de Dakar - School Management Application - EDACY
 
 ### Introduction
 
@@ -53,7 +53,7 @@ Ensure you have the following installed on your system:
    npm start
    ```
 
-### API Endpoints
+### 🔖 API Endpoints
 
 - **Classes**
   - `GET /api/classes` - List all classes
