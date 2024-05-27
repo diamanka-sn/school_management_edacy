@@ -4,7 +4,9 @@ const cors = require('cors');
 const bodyParser = require('body-parser')
 const app = express();
 const PORT = process.env.PORT || 3000;
+require('dotenv').config();
 
+const uri = process.env.MONGODB_URI;
 app.use(express.json());
 app.use(cors());
 app.use((req, res, next) => {
@@ -22,7 +24,7 @@ app.use((req, res, next) => {
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb://localhost:27017/school_management_db')
+mongoose.connect(uri)
   .then(() => {
     console.log('Connexion reussie');
   })
